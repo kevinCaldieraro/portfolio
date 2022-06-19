@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Caldieraro - Portfólio</title>
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="./assets/fonts/style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+  </head>
+  <body>
+    <!-- LOADING SCREEN -->
+    <div class="loading-screen hide">
+      <div class="loading">
+        <div class="percent">100%</div>
+        <div class="completedLoading">Concluído!!!</div>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+      <button id="btnNext">Próximo</button>
+    </div>
+    <!-- MAIN SCREEN -->
+    <div class="main-screen toggle">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="container flex">
+          <div class="me">
+            <a class="link-logo" href="#"><h1>&lt;KC/&gt;</h1></a>
+          </div>
+          <div class="menu">
+            <ul>
+              <li id="btnOpenPortfolio">Portfólio</li>
+              <li><i class="icon-lamp"></i></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- MAIN CONTENT -->
+      <main class="container">
+        <div class="text">
+          <h2>
+            Olá! Eu sou <span>Kevin</span> <span>Caldieraro</span>. Um Web
+            Developer
+          </h2>
+          <p>
+            Finalizei meu EMI Técnico em Informática no IFRS em 2021 e
+            atualmente estou estudando diariamente JS e ReactJS. Minha maior
+            motivação para estudar programação é saber que existem muitos
+            problemas para serem resolvidos que podem ser automatizados com a
+            tecnologia.
+          </p>
+          <ul>
+            <li><a class="icon-github" href="#"></a></li>
+            <li><a class="icon-linkedin" href="#"></a></li>
+          </ul>
+        </div>
+        <div class="image">
+          <img
+            src="./assets/images/illustrationHome.png"
+            alt="Uma ilustração 3D de um boneco sentado em uma mesa de escritório com um computador ao seu lado e acenando com a mão"
+          />
+        </div>
+      </main>
+    </div>
+    <!-- PORTFOLIO SCREEN -->
+    <div class="portfolio-screen">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="container flex">
+          <div class="me">
+            <a class="link-logo" href="#"><h1>&lt;KC/&gt;</h1></a>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><i class="icon-arrow-left-circle"></i></li>
+              <li><i class="icon-lamp"></i></li>
+              <li>
+                <div class="hamburguer">
+                  <div class="lines line-top"></div>
+                  <div class="lines line-mid"></div>
+                  <div class="lines line-bottom"></div>
+                </div>
+              </li>
+            </ul>
+            <div class="menu-hamburguer">
+              <ul class="flex">
+                <li>Techs</li>
+                <li>Projetos</li>
+                <li>Contato</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-- SCRIPT -->
+    <script src="./script.js"></script>
+  </body>
+</html>
